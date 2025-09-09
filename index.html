@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umroh Bersama Kungfu Chef Muto - Fistatour</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #064e3b 0%, #065f46 50%, #047857 100%); }
+        .card-shadow { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+        .pulse-animation { animation: pulse 2s infinite; }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .gold-accent { color: #fbbf24; }
+        .gold-bg { background-color: #fbbf24; }
+        .gold-border { border-color: #fbbf24; }
+        .islamic-pattern {
+            background-image: 
+                radial-gradient(circle at 25% 25%, #fbbf24 2px, transparent 2px),
+                radial-gradient(circle at 75% 75%, #fbbf24 2px, transparent 2px);
+            background-size: 50px 50px;
+            background-position: 0 0, 25px 25px;
+            opacity: 0.1;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <header class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <img src="images/logo-name-fistatour.png.png" alt="Logo Fistatour" class="h-24 w-auto">
+            </div>
+            <div class="hidden md:flex items-center space-x-4">
+                <span class="text-sm text-gray-600">PPIU No. U.434/2020</span>
+                <span class="text-sm text-gray-600">|</span>
+                <span class="text-sm text-gray-600">PIHK Berizin</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="gradient-bg text-white py-20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-20"></div>
+        <div class="absolute inset-0 islamic-pattern"></div>
+        <div class="container mx-auto px-4 relative z-10">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="text-center md:text-left">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                        Safar Penuh Berkah, <span class="gold-accent">Cita Rasa Berbeda</span>
+                    </h1>
+                    <p class="text-xl md:text-2xl mb-8 text-green-100">
+                        Nikmati Pengalaman Umroh Spesial bersama Kungfu Chef Muto!
+                    </p>
+                    <div class="bg-white bg-opacity-20 backdrop-blur-sm rounded-lg p-6 mb-8 border-2 gold-border">
+                        <h2 class="text-2xl font-semibold mb-2 gold-accent">🕌 Umroh 11 Hari</h2>
+                        <p class="text-lg">Menjalankan Ibadah, Menjelajahi Kuliner Dunia!</p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <button onclick="scrollToForm()" class="gold-bg hover:bg-yellow-500 text-green-900 font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 pulse-animation border-2 border-yellow-300">
+                            Daftar Sekarang
+                        </button>
+                        <a href="https://wa.me/6289683425577" class="bg-white hover:bg-gray-100 text-green-800 font-bold py-4 px-8 rounded-full text-lg transition-all duration-300 border-2 gold-border">
+                            WhatsApp Langsung
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img src="images/logo-fistatour.png.png" alt="Kungfu Chef Muto" class="rounded-full mx-auto w-80 h-80 object-cover card-shadow">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Pengalaman Umroh yang Tak Terlupakan</h2>
+                <p class="text-xl text-gray-600">Menggabungkan khusyuknya ibadah dengan petualangan kuliner dunia</p>
+            </div>
+
+            <div class="bg-gradient-to-r from-green-800 to-green-600 text-white p-8 rounded-xl mb-16 relative overflow-hidden">
+                <div class="absolute inset-0 islamic-pattern"></div>
+                <div class="relative z-10 text-center">
+                    <h3 class="text-3xl font-bold mb-6 gold-accent">⭐ Guest Star Spesial</h3>
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div class="text-center md:text-left">
+                            <h4 class="text-2xl font-bold mb-4 gold-accent">Chef Muto</h4>
+                            <p class="text-lg mb-4">Ngobrol bareng, makan bareng dan belajar bareng dengan Kungfu Chef Muto!</p>
+                            <div class="bg-white bg-opacity-20 backdrop-blur-sm rounded-lg p-4">
+                                <p class="text-sm">Kesempatan langka untuk berinteraksi langsung dengan chef terkenal dalam perjalanan spiritual Anda</p>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <img src="images/chef-muto.png.png" alt="Chef Muto"  class="rounded-full mx-auto w-80"
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container mx-auto px-4 mb-16">
+                <div class="text-center">
+                    <img src="images/brosur-umroh.png.png" alt="Brosur Paket Umroh" class="mx-auto rounded-xl card-shadow max-w-full h-auto">
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                <div class="text-center p-6 bg-green-50 rounded-xl card-shadow border-2 gold-border">
+                    <div class="text-4xl mb-4">👨‍🍳</div>
+                    <h3 class="text-xl font-semibold mb-2 text-green-800">Baking Demo Eksklusif</h3>
+                    <p class="text-gray-600">Saksikan Baking Demo langsung di Hotel Anjum Mekah</p>
+                </div>
+                <div class="text-center p-6 bg-green-50 rounded-xl card-shadow border-2 gold-border">
+                    <div class="text-4xl mb-4">🍜</div>
+                    <h3 class="text-xl font-semibold mb-2 text-green-800">City Tour Kuliner</h3>
+                    <p class="text-gray-600">Ikuti City Tour Kuliner Komunitas Muslim & Nikmati Nasi Hainan yang otentik di Tiongkok</p>
+                </div>
+                <div class="text-center p-6 bg-green-50 rounded-xl card-shadow border-2 gold-border">
+                    <div class="text-4xl mb-4">🍛</div>
+                    <h3 class="text-xl font-semibold mb-2 text-green-800">Nasi Hainan Otentik</h3>
+                    <p class="text-gray-600">Nikmati cita rasa autentik Nasi Hainan di negeri asalnya</p>
+                </div>
+                <div class="text-center p-6 bg-green-50 rounded-xl card-shadow border-2 gold-border">
+                    <div class="text-4xl mb-4">🍽️</div>
+                    <h3 class="text-xl font-semibold mb-2 text-green-800">Bonus Kuliner</h3>
+                    <p class="text-gray-600">Nikmati Nasi Bukhari/Al Baik yang lezat dan berkesan sebagai bonus dari kami!</p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 mb-16">
+                <div class="bg-gray-50 p-8 rounded-xl text-black">
+                    <h3 class="text-2xl font-bold mb-6 text-gray-800">📅 Jadwal & Penerbangan</h3>
+                    <div class="space-y-4">
+                        <div class="flex justify-between">
+                            <span class="font-semibold">Keberangkatan:</span>
+                            <span class="text-right">30 November 2025</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-semibold">Durasi:</span>
+                            <span class="text-right">11 Hari</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-semibold">Maskapai:</span>
+                            <span class="text-right">Hainan Airlines</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 p-8 rounded-xl text-black">
+                    <h3 class="text-2xl font-bold mb-6 text-gray-800">🏨 Akomodasi Premium</h3>
+                    <div class="space-y-4">
+                        <div class="flex justify-between">
+                            <span class="font-semibold">Madinah:</span>
+                            <span class="text-right">Anshar Golden Tulip (Setaraf)</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-semibold">Mekah:</span>
+                            <span class="text-right">Anjum Hotel (Setaraf)</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="font-semibold">Tiongkok:</span>
+                            <span class="text-right">Meilan Hainan Hotel (Setaraf)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-r from-green-800 to-green-600 text-white p-8 rounded-xl mb-16 relative overflow-hidden">
+                <div class="absolute inset-0 islamic-pattern"></div>
+                <div class="relative z-10">
+                    <h3 class="text-3xl font-bold text-center mb-8 gold-accent">💰 Harga Paket Spesial</h3>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-white bg-opacity-20 p-6 rounded-lg text-center border-2 gold-border">
+                            <h4 class="text-xl font-semibold mb-2">Quad</h4>
+                            <p class="text-3xl font-bold gold-accent">Rp 30.000.000</p>
+                            <p class="text-sm opacity-80">per orang</p>
+                        </div>
+                        <div class="bg-white bg-opacity-30 p-6 rounded-lg text-center border-2 gold-border">
+                            <h4 class="text-xl font-semibold mb-2">Triple</h4>
+                            <p class="text-3xl font-bold gold-accent">Rp 33.000.000</p>
+                            <p class="text-sm opacity-80">per orang</p>
+                            <span class="gold-bg text-green-900 px-2 py-1 rounded-full text-xs font-semibold">POPULER</span>
+                        </div>
+                        <div class="bg-white bg-opacity-20 p-6 rounded-lg text-center border-2 gold-border">
+                            <h4 class="text-xl font-semibold mb-2">Double</h4>
+                            <p class="text-3xl font-bold gold-accent">Rp 36.000.000</p>
+                            <p class="text-sm opacity-80">per orang</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl card-shadow">
+                <h3 class="text-2xl font-bold mb-6 text-center text-gray-800">✨ Fasilitas Lengkap Termasuk</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 text-black">
+                    <div class="flex items-center space-x-3">
+                        <span class="text-green-500">✓</span>
+                        <span>Tour Leader Berpengalaman</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-green-500">✓</span>
+                        <span>Muthowif/Pemandu Lokal</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-green-500">✓</span>
+                        <span>Pelatihan Manasik</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-green-500">✓</span>
+                        <span>Perlengkapan Umroh</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-green-500">✓</span>
+                        <span>Visa & Siskopatuh</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-green-500">✓</span>
+                        <span>Aplikasi Android Ramah Fista</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-green-500">✓</span>
+                        <span>Tiket Pesawat PP</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-green-500">✓</span>
+                        <span>Handling Bandara</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <span class="text-green-500">✓</span>
+                        <span>Bus Full AC & City Tour</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Mengapa Memilih Paket Ini?</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                <div>
+                    <div class="bg-white p-8 rounded-xl card-shadow">
+                        <h3 class="text-2xl font-bold mb-6 text-green-800">💫 Pengalaman Langka & Istimewa</h3>
+                        <p class="text-gray-700 mb-4">
+                            Kesempatan langka untuk menggabungkan dua pengalaman tak terlupakan: menyempurnakan rukun Islam di Tanah Suci dan menikmati sensasi kuliner yang diracik langsung oleh ahlinya.
+                        </p>
+                        <p class="text-gray-700 mb-4">
+                            Jangan lewatkan pengalaman istimewa yang akan menjadi cerita abadi bagi Anda dan keluarga.
+                        </p>
+                        <div class="bg-red-100 border-l-4 border-red-500 p-4 rounded">
+                            <p class="text-red-700 font-semibold">⚠️ Kursi terbatas! Bergabunglah dengan rombongan yang siap memulai perjalanan penuh berkah dan kelezatan ini.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="bg-white p-8 rounded-xl card-shadow">
+                        <h3 class="text-2xl font-bold mb-6 text-green-800">🛡️ Jaminan Legalitas & Kepercayaan</h3>
+                        <div class="flex justify-center items-center mb-6">
+                            <img src="images/legalitas.png.png" alt="Izin Resmi Fistatour" class="h-auto max-w-full">
+                        </div>
+                        <p class="text-gray-700 font-semibold text-center bg-green-50 p-4 rounded-lg border-2 gold-border">
+                            "Fistatour: Safar penuh arti, Melayani sepenuh hati, Tunaikan ibadah umroh dan haji sesuai syar'i."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="registration-form" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-2xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-4xl font-bold text-gray-800 mb-4">🚀 Daftar Sekarang!</h2>
+                    <p class="text-xl text-gray-600">Isi form di bawah ini dan kami akan menghubungi Anda segera</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl card-shadow">
+                    <form id="registrationForm" class="space-y-6">
+                        <div>
+                            <label for="fullName" class="block text-sm font-medium text-gray-700 mb-2">Nama Lengkap *</label>
+                            <input type="text" id="fullName" name="fullName" required 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
+                                placeholder="Masukkan nama lengkap Anda">
+                        </div>
+
+                        <div>
+                            <label for="whatsapp" class="block text-sm font-medium text-gray-700 mb-2">Nomor WhatsApp *</label>
+                            <input type="tel" id="whatsapp" name="whatsapp" required 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
+                                placeholder="Contoh: 08123456789">
+                        </div>
+
+                        <div>
+                            <label for="origin" class="block text-sm font-medium text-gray-700 mb-2">Asal Daerah *</label>
+                            <input type="text" id="origin" name="origin" required 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300"
+                                placeholder="Contoh: Jakarta, Surabaya, Bandung">
+                        </div>
+
+                        <div>
+                            <label for="roomType" class="block text-sm font-medium text-gray-700 mb-2">Pilihan Kamar</label>
+                            <select id="roomType" name="roomType" 
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-300">
+                                <option value="">Pilih tipe kamar</option>
+                                <option value="Quad - Rp 30.000.000">Quad - Rp 30.000.000</option>
+                                <option value="Triple - Rp 33.000.000">Triple - Rp 33.000.000</option>
+                                <option value="Double - Rp 36.000.000">Double - Rp 36.000.000</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" 
+                                class="w-full bg-green-800 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 pulse-animation border-2 gold-border">
+                            📱 Daftar Sekarang & Kirim ke WhatsApp
+                        </button>
+                    </form>
+                </div>
+
+                <div class="mt-12 text-center">
+                    <p class="text-gray-600 mb-6">Atau hubungi kami langsung:</p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="https://wa.me/6289683425577" 
+                           class="bg-green-800 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-300 border-2 gold-border">
+                            📱 WhatsApp: 0896 8342 5577
+                        </a>
+                        <a href="tel:+6289683425577" 
+                           class="gold-bg hover:bg-yellow-500 text-green-900 font-semibold py-3 px-6 rounded-lg transition-all duration-300 border-2 border-yellow-300">
+                            📞 Telepon Langsung
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-2xl font-bold mb-8">Ikuti Media Sosial Kami</h3>
+            <div class="flex flex-wrap justify-center gap-6">
+                <a href="https://instagram.com/fistatour" class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-lg transition-all duration-300">
+                    📷 Instagram @fistatour
+                </a>
+                <a href="https://facebook.com/fistatour.umroh" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg transition-all duration-300">
+                    📘 Facebook @fistatour umroh
+                </a>
+                <a href="https://tiktok.com/@fistatour" class="bg-black hover:bg-gray-800 text-white px-6 py-3 rounded-lg transition-all duration-300">
+                    🎵 TikTok @fistatour
+                </a>
+                <a href="https://youtube.com/@fistatourtravel" class="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg transition-all duration-300">
+                    📺 YouTube @fistatourtravel
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-green-900 text-white py-12 relative overflow-hidden">
+        <div class="absolute inset-0 islamic-pattern"></div>
+        <div class="container mx-auto px-4 text-center relative z-10">
+            <div class="mb-8">
+                <h3 class="text-2xl font-bold mb-2 gold-accent">Fistatour</h3>
+                <p class="text-green-200">Safar penuh arti, Melayani sepenuh hati, Tunaikan ibadah umroh dan haji sesuai syar'i</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div>
+                    <h4 class="font-semibold mb-2 gold-accent">Izin Resmi</h4>
+                    <p class="text-green-200">PPIU No. U.434/2020</p>
+                    <p class="text-green-200">PIHK Berizin Resmi</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-2 gold-accent">Kontak</h4>
+                    <p class="text-green-200">WhatsApp: 0896 8342 5577</p>
+                    <p class="text-green-200">Email: info@fistatour.com</p>
+                </div>
+            </div>
+            <div class="border-t border-green-700 pt-8">
+                <p class="text-green-300">&copy; 2024 Fistatour. Semua hak dilindungi undang-undang.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll to form
+        function scrollToForm() {
+            document.getElementById('registration-form').scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // Form submission handler
+        document.getElementById('registrationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const fullName = document.getElementById('fullName').value;
+            const whatsapp = document.getElementById('whatsapp').value;
+            const origin = document.getElementById('origin').value;
+            const roomType = document.getElementById('roomType').value;
+            
+            // Validate required fields
+            if (!fullName || !whatsapp || !origin) {
+                alert('Mohon lengkapi semua field yang wajib diisi (*)');
+                return;
+            }
+            
+            // Format WhatsApp number
+            let formattedWhatsApp = whatsapp.replace(/\D/g, '');
+            if (formattedWhatsApp.startsWith('0')) {
+                formattedWhatsApp = '62' + formattedWhatsApp.substring(1);
+            } else if (!formattedWhatsApp.startsWith('62')) {
+                formattedWhatsApp = '62' + formattedWhatsApp;
+            }
+            
+            // Create WhatsApp message
+            let message = `Assalamualaikum. Saya ${fullName} dari ${origin} tertarik untuk mendaftar paket Umroh bersama Kungfu Chef Muto.`;
+            
+            if (roomType) {
+                message += ` Saya tertarik dengan paket ${roomType}.`;
+            }
+            
+            message += ` Mohon info lebih lanjut. Terima kasih.`;
+            
+            // Encode message for URL
+            const encodedMessage = encodeURIComponent(message);
+            
+            // Open WhatsApp
+            const whatsappURL = `https://wa.me/6289683425577?text=${encodedMessage}`;
+            window.open(whatsappURL, '_blank');
+            
+            // Show success message
+            alert('Terima kasih! Anda akan diarahkan ke WhatsApp untuk melanjutkan pendaftaran.');
+        });
+    </script>
+</body>
+</html>
